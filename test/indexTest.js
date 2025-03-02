@@ -9,7 +9,7 @@ describe("<table>", () => {
     // Find the table in the HTML
     const table = document.querySelector("table");
     const hint = "The document should have a <table> element";
-
+c
     expect(table, hint).to.exist;
   });
 
